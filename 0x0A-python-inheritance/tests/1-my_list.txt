@@ -89,6 +89,7 @@ Test Boolean:
      >>> print(l)
      [-200, 200, -3]
      >>> id(l) is not id(l.print_sorted())
+     [-200, -3, 200]
      True
 
 Test type, isinstance and issubclass:
