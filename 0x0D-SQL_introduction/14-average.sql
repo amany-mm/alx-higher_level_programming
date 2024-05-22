@@ -3,4 +3,5 @@
 -- The result column name should be average
 -- The database name will be passed as an argument of the mysql command
 -- ubuntu@ubuntu:~/$ cat 14-average.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-SELECT AVG(score) AS average FROM second_table;
+SELECT Avg(score) AS average
+FROM   second_table;
