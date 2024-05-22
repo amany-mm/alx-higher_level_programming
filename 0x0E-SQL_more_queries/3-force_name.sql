@@ -8,7 +8,7 @@
 -- ubuntu@ubuntu:~/$ echo 'INSERT INTO force_name (id) VALUES (333);' | mysql -hlocalhost -uroot -p hbtn_0d_2
 -- ERROR 1364 (HY000) at line 1: Field 'name' doesn't have a default value
 -- ubuntu@ubuntu:~/$ echo 'SELECT * FROM force_name;' | mysql -hlocalhost -uroot -p hbtn_0d_2
-CREATE TABLE IF NOT EXISTS `force_name`
+CREATE TABLE IF NOT EXISTS force_name
   (
      id   INT,
      name VARCHAR(256) NOT NULL
