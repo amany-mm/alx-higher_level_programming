@@ -2,4 +2,6 @@
 -- in the table first_table of the database hbtn_0c_0 in your MySQL server.
 -- The database name will be passed as an argument of the mysql command
 -- ubuntu@ubuntu:~/$ cat 8-count_89.sql | mysql -hlocalhost -uroot -p hbtn_0c_0 | tail -1
-SELECT COUNT(id) FROM first_table WHERE id=89;
+SELECT Count(id)
+FROM   first_table
+WHERE  id = 89; 
