@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-A Python script that fetches https://alx-intranet.hbtn.io/status
-using requests.
-Usage: ./5-hbtn_header.py https://alx-intranet.hbtn.io
+A Python script that fetches
+https://alx-intranet.hbtn.io/status using requests.
+Usage: ./4-hbtn_status.py | cat -e
 """
 import requests
 
