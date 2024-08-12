@@ -1,0 +1,8 @@
+# Python Byte-compiled 
+__pycache__/
+
+
+# C Object files (without extensions)
+*
+!/**/
+!*.*
